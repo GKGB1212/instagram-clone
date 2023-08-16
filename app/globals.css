@@ -9,7 +9,10 @@
         transition-all duration-150 ease-out;
     }
     .navBtnSideBar{
-        @apply w-8 h-8 group-hover:scale-110
+        @apply w-6 h-6 group-hover:scale-110
         transition-all duration-150 ease-out;
+    }
+    .btn{
+        @apply w-6 h-6 hover:text-gray-500 transition-all duration-150 ease-out cursor-pointer
     }
 }

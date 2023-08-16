@@ -13,6 +13,19 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes:{
+        slideInRight:{
+          '0%': {
+            transform: 'translateX(-100%)',
+          },
+          '100%': {
+            transform: 'translateX(0)',
+          }
+        }
+      },
+      animation:{
+        'slide-in-right':'slideInRight 0.3s ease-in forwards'
+      }
     },
   },
   plugins: [],
