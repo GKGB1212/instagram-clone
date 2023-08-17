@@ -28,7 +28,7 @@ function Stories() {
         });
       };
     return (
-        <div className='relative pt-8 max-w-xl'>
+        <div className='relative max-w-xl'>
             <div ref={listRef} className='flex space-x-4 pl-6 overflow-hidden'>
                 {
                     suggestion.map((profile) => (
